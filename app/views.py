@@ -9,4 +9,4 @@ def index():
     View root page function that returns the index page and its data
     '''
     message = 'PITCH WEB'
-    return render_template('index.html')
+    return render_template('index.html',message = message)
